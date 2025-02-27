@@ -5,5 +5,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-// bizga react app kk.
