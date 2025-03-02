@@ -56,7 +56,7 @@ function Home() {
 			albumId: 1,
 			id: 8,
 			title: 'aut porro officiis laborum odit ea laudantium corporis',
-			url: 'https://via.placeholder.com/600/54176f',
+			url: 'https://media.istockphoto.com/id/1993983703/photo/themis-statue-of-justice-law-legal-system-justice-crime-concept-3d-render.jpg?s=2048x2048&w=is&k=20&c=BkvA1H0lkn-3iF1LVrzdIamPpMyyJy4Zr7e34obVnfg=',
 			thumbnailUrl: 'https://via.placeholder.com/150/54176f',
 		},
 	]);
@@ -69,7 +69,15 @@ function Home() {
 			<>
 				{data ? (
 					data.map(item => {
-						return <li key={item.id}>{item.id}</li>;
+						return (
+							<>
+								<div className='card-container'>
+									{data.map(element => {
+										return <></>;
+									})}
+								</div>
+							</>
+						);
 					})
 				) : (
 					<div> Topilmadi </div>
