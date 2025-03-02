@@ -1,7 +1,13 @@
 import React from 'react';
-
+import '../App.css';
+import ClassComp from './class';
 function Header() {
-	return <div>Header</div>;
+	return (
+		<>
+			<ClassComp />
+			<div>Header</div>
+		</>
+	);
 }
 
 export default Header;

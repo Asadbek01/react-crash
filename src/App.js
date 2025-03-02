@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 import Footer from './components/footer';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -9,7 +9,7 @@ function App() {
 	return (
 		<>
 			<BrowserRouter>
-				<MyNavbar />
+				{/* <MyNavbar /> */}
 				<Routes>
 					<Route path='/' element={<Home />} />
 					<Route path='/blog' element={<Footer />} />
